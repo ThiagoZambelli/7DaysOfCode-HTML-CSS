@@ -1,0 +1,14 @@
+@import url(style/header.css);
+
+:root{
+    --branco: #FFFFFF;
+    --nav-links-color:#667085;
+    --vermelho-botao: #8E2424;
+}
+
+.grid__container{
+    display: grid;
+}
+.flex__container{
+    display: flex;
+}
