@@ -1,0 +1,31 @@
+
+.titulo{
+    color: var(--cor-dos-titulos);
+}
+.texto__main{
+    color: var(--cor-dos-textos);
+}
+
+.sobre__nos{
+    flex-direction: column;
+    align-items: center;
+    padding: 96px 0;
+    gap: 24px;
+}
+.sobre__nos span{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--vermelho-logo);
+}
+.sobre__nos-titulo{
+    font-size: 48px;
+    font-weight: 600;
+    padding: 0 0 20px 0;
+}
+.sobre__nos-texto{
+    font-size: 20px;
+    font-weight: 400;
+    flex-wrap: wrap;
+    width: 60%;
+    text-align: center;
+}

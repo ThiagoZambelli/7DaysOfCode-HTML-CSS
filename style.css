@@ -1,9 +1,15 @@
 @import url(style/header.css);
+@import url(style/main.css);
 
 :root{
     --branco: #FFFFFF;
     --nav-links-color:#667085;
-    --vermelho-botao: #8E2424;
+    --vermelho-logo: #8E2424;
+    --cor-dos-titulos:#101828;
+    --cor-dos-textos:#667085;
+}
+body{
+    font-family: 'Inter', sans-serif;
 }
 
 .grid__container{
