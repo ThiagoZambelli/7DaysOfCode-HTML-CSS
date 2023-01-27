@@ -43,5 +43,43 @@ span{
 }
 .vagas-imagem{
     width: 90%;
-    margin-top: 1em;
+    margin: 1em 0 4em 0;
+}
+.vagas__disponiveis{
+    width: 60%;
+}
+.vaga__descricao{
+    flex-direction: column;
+    row-gap: 1.5em;
+}
+.vagas__areas{
+    flex-direction: column;
+    row-gap: 3em;
+    width: 100%;
+}
+.areas__titulo{
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--cor-dos-titulos);
+}
+.vaga{
+    padding: 2em;
+    gap: 2em;
+    flex-direction: column;
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+}
+.vaga__titulo{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--cor-dos-titulos);
+    padding: 1em 0;
+}
+.vaga div{
+    column-gap: 2em;
+}
+.vaga p{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cor-dos-textos);
 }
