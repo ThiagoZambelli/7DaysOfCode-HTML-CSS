@@ -8,6 +8,7 @@
     --vermelho-logo: #8E2424;
     --cor-dos-titulos:#101828;
     --cor-dos-textos:#667085;
+    --opiniao-fundo: rgba(196, 25, 25, 0.03);
 }
 body{
     font-family: 'Inter', sans-serif;

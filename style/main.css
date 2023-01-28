@@ -83,3 +83,44 @@ span{
     font-weight: 500;
     color: var(--cor-dos-textos);
 }
+
+.opiniao{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5em;
+    row-gap: 2em;
+    padding: 2em; 
+    background-color: var(--opiniao-fundo);
+    width: 80vw;
+    margin: 5em auto;
+}
+.opiniao span{
+    font-size: 14px;
+    font-weight: 600;
+}
+.opiniao-titulo{
+    font-size: 36px;
+    font-weight: 500;
+    width: 80vw;
+    text-align: center;
+}
+.opiniao__colabirador{
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1em;
+}
+.opiniao__colabirador img{
+    width: 56px;
+    height: 56px;
+}
+.opiniao__nome{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cor-dos-titulos);
+}
+.opiniao__funcao{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cor-dos-textos);
+}
+
