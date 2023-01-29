@@ -1,6 +1,7 @@
 @import url(style/header.css);
 @import url(style/main.css);
 @import url(style/banner.css);
+@import url(style/footer.css);
 
 :root{
     --branco: #FFFFFF;
@@ -8,7 +9,10 @@
     --vermelho-logo: #8E2424;
     --cor-dos-titulos:#101828;
     --cor-dos-textos:#667085;
+    --borda-cinza: #D0D5DD;
+    --copyrigth: #98A2B3;
     --opiniao-fundo: rgba(196, 25, 25, 0.03);
+    --cor-footer:#F9FAFB;
 }
 body{
     font-family: 'Inter', sans-serif;
